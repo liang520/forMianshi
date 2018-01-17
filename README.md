@@ -169,10 +169,42 @@ Webpack的强大之处不仅仅在于它统一了JS的各种模块系统，取�
 * [Webpack 学习 ](https://github.com/thoughtbit/it-note/issues/28)
 * [webpack 使用总结](http://www.ferecord.com/webpack-summary.html#resolve)(全面)  
 
-7.请用X-Tag 实现一个你能力范围内 Web Components  
+7.请用X-Tag 实现一个你能力范围内 Web Components;  
+
+8.HTML未来实现Web Components都有哪些规范，能写出几句简单的demo么。  
+[相关阐述](http://www.html-js.com/article/2779)  
+9.你知道什么是Jenkins和Travis CI么，请简要概述？
+* 持续集成工具  
+
+10.请问现在如何利用持续集成的概念来修改你团队的项目
+
+
+## 4.前端性能优化
+
+1.请说明前端工程化与性能优化的关系？  
+[前端工程与性能优化](https://github.com/fouber/blog/issues/3)  
+2.请说明静态资源文件放入CDN的好处？  
+[网站主域名与静态资源使用CDN域名区分开的好处](https://lzw.me/a/543.html)  
+3.请你写出你知道的缓存前端静态资源的常用方法。  
+cdn、304、Last-Modified、ETag、[Webpack实现资源增量更新](https://zhuanlan.zhihu.com/p/24954527)  
+4.略  
+5.在移动端特别重视首屏时间，请写出你掌握的降低首屏时间的方法
+1. 合并文件，如css，js等
+2. 将js文件放在文档的底部
+3. 将服务器部署到离用户近的地方，如cdn技术
+4. 缓存技术
+5. 负载均衡
+6. 文档直出  
+
+7.我们知道一个网站的并发是有限制的，那即使合并了很多请求还是不能解决静态资源请求过多的情况，你有什么优化手段么。   
+* 缓存、负载均衡  
+
+8.假设现在给你一个接口能够取到用户的网速和机型等关键信息，你能做出什么具体的抉择优化你的H5 WebAPP。  
 
 
 
 
-[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)  
+
+
+[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)
 [vue内部机制](https://github.com/answershuto/learnVue)
