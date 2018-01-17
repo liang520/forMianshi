@@ -174,4 +174,5 @@ Webpack的强大之处不仅仅在于它统一了JS的各种模块系统，取�
 
 
 
-[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)
+[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)  
+[vue内部机制](https://github.com/answershuto/learnVue)
