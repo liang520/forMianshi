@@ -206,5 +206,6 @@ cdn、304、Last-Modified、ETag、[Webpack实现资源增量更新](https://zhu
 
 
 
-[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)
-[vue内部机制](https://github.com/answershuto/learnVue)
+[vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)  
+[vue内部机制](https://github.com/answershuto/learnVue)  
+[深入浅出 - vue之深入响应式原理](https://github.com/berwin/Blog/issues/11)
