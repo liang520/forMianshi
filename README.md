@@ -203,9 +203,16 @@ cdn、304、Last-Modified、ETag、[Webpack实现资源增量更新](https://zhu
 
 
 
+# 三大框架基础  
 
 
+1.请描述Vuex的几大模块和关键作用（提示：State、Getters、Mutations、Actions、
+Modules  
+2.请用你的知识解释一下GraphQL和Relay？  
+3.请写出用Vue实现单页应用的全部技术细节？  
 
 [vue机制-Virtual DOM的简单实现](https://segmentfault.com/a/1190000012850255)  
 [vue内部机制](https://github.com/answershuto/learnVue)  
-[深入浅出 - vue之深入响应式原理](https://github.com/berwin/Blog/issues/11)
+[深入浅出 - vue之深入响应式原理](https://github.com/berwin/Blog/issues/11)    
+[面向对象编程](https://github.com/Kelichao/javascript.basics/issues/2)  
+[函数编程](http://www.ruanyifeng.com/blog/2012/04/functional_programming.html)
