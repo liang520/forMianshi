@@ -41,11 +41,11 @@
 			val=newCalc;//将上一个级别的运算的值给老数据，去计算下一个级别的运算
 			newCalc=[];//将临时的计算值清空
 		}
-	return val[0]
+		return val[0]
 	}
 	var calculateArray=Calculator('1-2/9*3')
 	calculate(calculateArray)
-</code>
+</code>  
 3. 关于对象的继承  
 4. 关于flex布局  
 5. 写一个函数，第一次调用返回0，第二次调用返回1依次，要求不污染全局变量
