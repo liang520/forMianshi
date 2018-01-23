@@ -10,6 +10,7 @@
 #### 9.数据结构与算法  
 #### 10.前端新技术及网络相关  
 ***  
+附面试基础问题[地址](https://github.com/liang520/forMianshi/blob/master/didiTest.md)
 ## 1.javascript的基础  
 略
 ## 2.nodejs基础  
