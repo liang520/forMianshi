@@ -87,16 +87,16 @@
     var calculateArray=Calculator('1-2/9*3')
     calculate(calculateArray) 
 ``` 
-**无括弧**
+**有无括弧都可以**
 ```javascript
     var a=new Function('return 1-2/9*3')
 ``` 
-**无括弧**
+**有无括弧都可以**
 ```javascript
     var s = "1 - 2 / 9 * 3";
     setTimeout("console.log(" + s + ")");
 ``` 
-**有括弧**
+**有无括弧都可以**
 ```javascript
     "use strict";
 class Calculation {
