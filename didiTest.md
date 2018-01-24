@@ -42,6 +42,40 @@
         return arr
     }
 ```
+* 插入
+```javascript
+    function insertSort(arr){
+        for(var i=1;i<arr.length;i++){//第一个不循环
+            var key=arr[i];//选好要去插入的数字
+            var j=i-1;//选中的值的上一位的序号
+            while(j>=0&&arr[j]>key){//序号大于零且上一个值比选中插入的值要大
+                arr[j+1]=arr[j];//向后迭代一位
+                j--;//插入的值向前走一位
+            }
+            arr[j+1]=key;
+        }
+        return arr
+    }
+```
+* 选择
+```javascript
+    function selection(arr){
+        var len=arr.length;
+        var minIndex,temp;
+        for(var i=0;i<len-1;i++){//最后一个不用对比
+            minIndex=i;//默认循环的拉一个是
+            for(var j=i+1;j<len;j++){
+                if(arr[minIndex]>arr[j]){//选中的值 大于后面迭代的值
+                    minIndex=j;//最小值序号更新；不更新值，拿当前最小的值序号继续往后迭代，迭代出所有后面的最小的一个值；
+                }
+            }
+            temp=arr[i];
+            arr[i]=arr[minIndex];//最小值赋值给当前的迭代起始位
+            arr[minIndex]=temp
+        }
+        return arr
+    }
+```
 2. '1-2/9*3' 给出结果，不能用eval  
 **无括弧**
 ```javascript
