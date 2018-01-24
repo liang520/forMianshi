@@ -1,5 +1,47 @@
 1. 排序算法 =>插入 快排 冒泡 用js写算法   
  [排序算法](https://github.com/damonare/Sorts)
+* 快排
+```javascript
+    function quickSort(arr){//快排
+        if(arr.length<=1){//快排只有一个值的时候
+            return arr;//返回
+        }
+        var pivotIndex=Math.floor(arr.length/2);//取出中间基准位置
+        var pivot=arr.splice(pivotIndex,1)[0];//取出基准值，需要剔除基准值，循环迭代
+        var left=[];
+        var right=[];//建立左右两个存储位置
+        for(var i=0;i<arr.length;i++){//遍历剩下的数据
+            if(arr[i]<pivot){//小于基准值放在左边
+                left.push(arr[i])
+            }else{//大于基准值放在右边
+                right.push(arr[i])
+            }
+        }
+        return	quickSort(left).concat([pivot],quickSort(right));
+        //递归迭代并连接所有数字
+    }
+    var arr=[85, 24, 63, 45, 17, 31, 96, 50];
+    quickSort(arr)
+```    
+* 冒泡
+```javascript
+    function bubbleSort(arr){
+        var i=arr.length-1;//初始时，倒数第二遍的时候就已经迭代完成了，所以不需要再迭代
+        while(i>0){
+            var pos=0;//记录下标识位置
+            for(var j=0;j<i;j++){//迭代还没有冒泡的数据
+                if(arr[j]>arr[j+1]){//前一个数据大于下一个数据时
+                  pos=j;//记录下切换了的标识
+                  var tmp=arr[j];
+                  arr[j]=arr[j+1]
+                  arr[j+1]=tmp;//切换数字
+                }
+            }
+            i=pos;//更新这次迭代改变位置，下一次不再触发
+        }
+        return arr
+    }
+```
 2. '1-2/9*3' 给出结果，不能用eval  
 **无括弧**
 ```javascript
