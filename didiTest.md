@@ -329,7 +329,7 @@ var b=(function(){
 14. mongodb怎么优化查询  
 15. [html5和html4的差别](https://segmentfault.com/a/1190000002453884#articleHeader20)
 16. [浏览器的兼容性](https://zhuanlan.zhihu.com/p/25123086?refer=dreawer)  
-17. [web worker](https://zhuanlan.zhihu.com/p/27264234)  (server worker)  
+17. [web worker](https://zhuanlan.zhihu.com/p/27264234)  [(server worker)](https://developers.google.com/web/fundamentals/primers/service-workers/)   
 18. jquery 都能用来干啥  
 19. http状态码  
 20. [算法题](http://mp.weixin.qq.com/s/2DTcuFYa-ClmTGHBsZL82Q)  
