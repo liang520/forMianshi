@@ -277,7 +277,7 @@ for (let {expr, expected} of tests) {
 <pre id="out"></pre>
 ```
 
-3. 关于对象的继承  
+3. [关于对象的继承](https://div.io/topic/941)
 4. 关于flex布局  
 5. 写一个函数，第一次调用返回0，第二次调用返回1依次，要求不污染全局变量   
 6. 问了闭包、作用域  
