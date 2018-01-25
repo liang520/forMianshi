@@ -326,7 +326,7 @@ for (let {expr, expected} of tests) {
     // [可选] 用作第一个调用 callback的第一个参数的值。 如果没有提供初始值，则将使用数组中的第一个元素。 在没有初始值的空数组上调用 reduce 将报错。
     Array.some();
     Array.every();//不能改变原数组
-    
 ```
-
+29. argument、callee、caller
+30. apply()是函数对象的一个方法，它的作用是<b>改变函数的调用对象</b>，它的第一个参数就表示改变后的<b>调用这个函数的对象</b>
 
