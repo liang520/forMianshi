@@ -308,5 +308,25 @@ for (let {expr, expected} of tests) {
 25. [webpack tree-shaking原理](https://zhuanlan.zhihu.com/p/32554436?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 26. 0.1+0.2!=0.3为什么  
 27. BFC 是什么  
+28. Array的一些方法  
+```javascript
+    Array.sort()//排序
+    Array.reduce();//累加
+    //callback
+    // 执行数组中每个值的函数，包含四个参数：
+    // accumulator
+    // 累加器累加回调的返回值; 它是上一次调用回调时返回的累积值，或initialValue（如下所示）。
+    // currentValue
+    // 数组中正在处理的元素。
+    // currentIndex
+    // 数组中正在处理的当前元素的索引。 如果提供了initialValue，则索引号为0，否则为索引为1。
+    // array
+    // 调用reduce的数组
+    // initialValue
+    // [可选] 用作第一个调用 callback的第一个参数的值。 如果没有提供初始值，则将使用数组中的第一个元素。 在没有初始值的空数组上调用 reduce 将报错。
+    Array.some();
+    Array.every();//不能改变原数组
+    
+```
 
 
