@@ -34,14 +34,12 @@ UI 主要是用 selenium-webdriver或者nightwatch
 ③ 容错，PM2 0秒热启功能（守护进程）  
 ④ 电话，邮件，日志等出错的通知机制  
 ⑤ 用process提供了一个事件uncaughtException进行抓取异常进行处理  
-<p><code>
-
+```javascript
     process.on('uncaughtException', function(err){
         console.log(err);  
         console.log(err.stack);  
     });
-</code> 
-</p>
+```
 ⑥ 企业级错误监测产品，如腾讯的bugly    
 
 6、写出知道的HTTP常用请求报头，并写出常见的HTTP status code含义？  
@@ -59,20 +57,17 @@ Use-Agent标识生产请求的浏览器或其他客户端程序，根据这个�
 
 7、请用Koa2实现基本的服务端，并输出Hello world，且实现功能测试。  
 #### 功能代码  
-<p><code>
-
+```javascript
     const Koa = require('koa');
     const app = new Koa();
     app.use(ctx => {
         ctx.body = Hello world'';
     }
     app.listen(3000);
-</code>
-</p>
+```
 
 #### 功能测试代码  
-<p><code>
-
+```javascript
     const app = require('app');
     const request = require('supertest').agent(app.listen());
     describe('Hello world', function(){
@@ -83,7 +78,7 @@ Use-Agent标识生产请求的浏览器或其他客户端程序，根据这个�
                 .expect('Hello world', done);
         })
     })
-</code></p>
+```
 **supertest=接口测试**  
 8、描述何种情况下会造成Node.js的内存泄漏，如何检测？  
 答：① 全局变量  
