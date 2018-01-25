@@ -280,11 +280,43 @@ for (let {expr, expected} of tests) {
 3. [关于对象的继承](https://div.io/topic/941)
 4. 关于flex布局  
 5. 写一个函数，第一次调用返回0，第二次调用返回1依次，要求不污染全局变量   
+```javascript
+var b=(function(){
+        var a=0;
+        return function addOne(){
+            return a++;//先返回，再计算，调用依次返回0、1、2
+        } 
+    })();
+```
 6. 问了闭包、作用域  
-7. 冒泡和捕获  
+7. 冒泡和捕获、委托、传播   
+    DOM事件流（event  flow ）存在三个阶段：事件捕获阶段、处于目标阶段、事件冒泡阶段。  
+    <b>先捕获后冒泡</b>  
+    preventDefault阻止事件的默认行为、returnValue属性为false来阻止事件的默认行为  
+    stopPropagation阻止冒泡、cancelBubble
 8. 捕获的应用场景  
+    “非冒泡事件的事件代理”  
+    div(d1)->div(d2)  
+    d1被点击时执行业务a；  
+    d2被点击时执行业务b；  
+    b的执行结果可能影响到a的执行上下文；  
+    a的执行结果也有可能影响到b的执行上下文；  
+    scroll/resize 这类可能连续触发的事件不冒泡的原因（避免冒泡阶段的事件传播开销）
 9. 手写jsonp  
-10. 问了csrf  
+```javascript
+    // 得到航班信息查询结果后的回调函数
+    var flightHandler = function(data){
+        alert('你查询的航班结果是：票价 ' + data.price + ' 元，' + '余票 ' + data.tickets + ' 张。');
+    };
+    // 提供jsonp服务的url地址（不管是什么类型的地址，最终生成的返回值都是一段javascript代码）
+    var url = "http://flightQuery.com/jsonp/flightResult.aspx?code=CA1998&callback=flightHandler";
+    // 创建script标签，设置其属性
+    var script = document.createElement('script');
+    script.setAttribute('src', url);
+    // 把script标签加入head，此时调用开始
+    document.getElementsByTagName('head')[0].appendChild(script); 
+```
+10. 问了[csrf](http://blog.csdn.net/stpeace/article/details/53512283)跨站点请求伪造、[xss](http://blog.csdn.net/ghsau/article/details/17027893)跨站脚本攻击  
 11. 用vue写一个翻页组件   
 12. "qc2 dc3 cg5"按数字的顺序把字符串重排一下,从小到大    
 ```javascript
@@ -295,9 +327,9 @@ for (let {expr, expected} of tests) {
 ```
 13. promise  
 14. mongodb怎么优化查询  
-15. html5和html4的差别  
-16. 浏览器的兼容性  
-17. web worker  (server worker)  
+15. [html5和html4的差别](https://segmentfault.com/a/1190000002453884#articleHeader20)
+16. [浏览器的兼容性](https://zhuanlan.zhihu.com/p/25123086?refer=dreawer)  
+17. [web worker](https://zhuanlan.zhihu.com/p/27264234)  (server worker)  
 18. jquery 都能用来干啥  
 19. http状态码  
 20. [算法题](http://mp.weixin.qq.com/s/2DTcuFYa-ClmTGHBsZL82Q)  
@@ -329,4 +361,5 @@ for (let {expr, expected} of tests) {
 ```
 29. argument、callee、caller
 30. apply()是函数对象的一个方法，它的作用是<b>改变函数的调用对象</b>，它的第一个参数就表示改变后的<b>调用这个函数的对象</b>
+31. 缓存相关，localstorage、indexDB、cookie、session
 
