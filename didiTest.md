@@ -286,7 +286,13 @@ for (let {expr, expected} of tests) {
 9. 手写jsonp  
 10. 问了csrf  
 11. 用vue写一个翻页组件   
-12. "qc2 dc3 cg5"按数字的顺序把字符串重排一下,从小到大  
+12. "qc2 dc3 cg5"按数字的顺序把字符串重排一下,从小到大    
+```javascript
+    //Array.sort();
+    ['qc2','cag5','c3','qw4'].sort(function(a,b){
+        return a.charAt(a.length-1)>b.charAt(b.length-1)
+    })
+```
 13. promise  
 14. mongodb怎么优化查询  
 15. html5和html4的差别  
