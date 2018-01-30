@@ -361,5 +361,6 @@ var b=(function(){
 ```
 29. argument、callee、caller
 30. apply()是函数对象的一个方法，它的作用是<b>改变函数的调用对象</b>，它的第一个参数就表示改变后的<b>调用这个函数的对象</b>
-31. 缓存相关，localstorage、indexDB、cookie、session
+31. 缓存相关，localstorage、indexDB、cookie、session   
+32. [css相关](http://blog.csdn.net/VhWfR2u02Q/article/details/78948683?from=timeline)
 
