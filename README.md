@@ -212,4 +212,8 @@ Modules
 [vue内部机制](https://github.com/answershuto/learnVue)  
 [深入浅出 - vue之深入响应式原理](https://github.com/berwin/Blog/issues/11)    
 [面向对象编程](https://github.com/Kelichao/javascript.basics/issues/2)  
-[函数编程](http://www.ruanyifeng.com/blog/2012/04/functional_programming.html)
+[函数编程](http://www.ruanyifeng.com/blog/2012/04/functional_programming.html)  
+
+
+# 算法  
+1.[算法](https://juejin.im/entry/5a71d5df51882573485a467d?utm_source=gold_browser_extension)
