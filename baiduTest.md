@@ -9,7 +9,7 @@
 3.float的原理是什么，怎么清除浮动，overflow:hidden和clear:both，为什么能够清除浮动   
 4.promise是什么，promise和await、async之间有什么关系。  
 5.在浏览器中输入一个地址发生了什么。  
-6.聊聊react的view render过程发生了什么，
+6.聊聊react的view render过程发生了什么，  
 7.vue的数据到绘制的内部原理是什么。   
 8.性能优化你怎么考虑   
 9.flex布局有什么兼容性问题  
