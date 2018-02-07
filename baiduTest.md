@@ -5,3 +5,27 @@
     {}==false;  
     [1]===[1];
  ```
+2.写出对象之间的继承的方法  
+3.float的原理是什么，怎么清除浮动，overflow:hidden和clear:both，为什么能够清除浮动   
+4.promise是什么，promise和await、async之间有什么关系。  
+5.在浏览器中输入一个地址发生了什么。  
+6.聊聊react的view render过程发生了什么，
+7.vue的数据到绘制的内部原理是什么。   
+8.性能优化你怎么考虑   
+9.flex布局有什么兼容性问题  
+10.cdn分发是怎么同步分发的  
+11.以下代码怎么输出正确的值
+```javascript
+ for(var i=0;i<3;i++){
+   setTimeout(console.log(i),0)
+ }
+```
+12.es6你用到了哪些功能，箭头函数里面的this是怎么指向的  
+13.多个tab窗口本地通信怎么通信  
+14.手写一个jsonp方法  
+15.跨域有什么处理方法  
+16.postMessage有兼容性问题，怎么处理  
+17.http2你了解多少，聊聊  
+18.websocket你了解多少，聊聊  
+19.百度的fis框架和其他的相对于gulp和grunt有什么区别，聊聊他的原理  
+20.聊聊对web组件的理解
