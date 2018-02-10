@@ -176,7 +176,7 @@ Webpack的强大之处不仅仅在于它统一了JS的各种模块系统，取�
 10.请问现在如何利用持续集成的概念来修改你团队的项目
 
 
-## 4.前端性能优化
+## 4.[前端性能优化](http://taobaofed.org/blog/2016/09/09/webpack-flow/)
 
 1.请说明前端工程化与性能优化的关系？  
 [前端工程与性能优化](https://github.com/fouber/blog/issues/3)  
