@@ -11,7 +11,8 @@
 #### 10.前端新技术及网络相关  
 ***  
 附面试基础问题[地址](https://github.com/liang520/forMianshi/blob/master/didiTest.md)  
-[其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)
+[其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)    
+[样式方面基础性问题](https://segmentfault.com/a/1190000013331105)
 ## 1.javascript的基础  
 略
 ## 2.nodejs基础  
