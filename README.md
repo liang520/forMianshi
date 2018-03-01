@@ -12,7 +12,8 @@
 ***  
 附面试基础问题[地址](https://github.com/liang520/forMianshi/blob/master/didiTest.md)  
 [其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)    
-[样式方面基础性问题](https://segmentfault.com/a/1190000013331105)
+[样式方面基础性问题](https://segmentfault.com/a/1190000013331105)    
+[HTML和CSS必须知道的重点难点问题](https://juejin.im/post/5a954add6fb9a06348538c0d?utm_source=gold_browser_extension)
 ## 1.javascript的基础  
 略
 ## 2.nodejs基础  
