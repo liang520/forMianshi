@@ -11,9 +11,8 @@
 #### 10.前端新技术及网络相关  
 ***  
 附面试基础问题[地址](https://github.com/liang520/forMianshi/blob/master/didiTest.md)  
-[其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)    
-[样式方面基础性问题](https://segmentfault.com/a/1190000013331105)        
-[HTML和CSS必须知道的重点难点问题](https://juejin.im/post/5a954add6fb9a06348538c0d?utm_source=gold_browser_extension)           
+[其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)      
+[HTML和CSS必须知道的重点难点问题](https://juejin.im/post/5a954add6fb9a06348538c0d?utm_source=gold_browser_extension)      
 [面试分享：2018阿里巴巴前端面试总结(题目+答案)](https://blog.ihoey.com/posts/Interview/2018-02-28-alibaba-interview.html)
 ## 1.javascript的基础  
 略
