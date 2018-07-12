@@ -219,3 +219,8 @@ Modules
 
 # 算法  
 1.[算法](https://juejin.im/entry/5a71d5df51882573485a467d?utm_source=gold_browser_extension)
+
+
+# 安全
+1.[XSS漏洞的原理](https://www.zhuyingda.com/blog/article.html?id=2)    
+2.[CSRF漏洞的原理](https://www.zhuyingda.com/blog/article.html?id=5)
