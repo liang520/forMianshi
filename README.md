@@ -222,5 +222,6 @@ Modules
 
 
 # 安全
-1.[XSS漏洞的原理](https://www.zhuyingda.com/blog/article.html?id=2)    
+1.[XSS漏洞的原理](https://www.zhuyingda.com/blog/article.html?id=2)   
+* [实例](https://blog.csdn.net/smstong/article/details/43561607)
 2.[CSRF漏洞的原理](https://www.zhuyingda.com/blog/article.html?id=5)
