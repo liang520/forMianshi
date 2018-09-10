@@ -13,7 +13,8 @@
 附面试基础问题[地址](https://github.com/liang520/forMianshi/blob/master/didiTest.md)  
 [其他面试](http://www.cnblogs.com/haoyijing/p/5898420.html)      
 [HTML和CSS必须知道的重点难点问题](https://juejin.im/post/5a954add6fb9a06348538c0d?utm_source=gold_browser_extension)      
-[面试分享：2018阿里巴巴前端面试总结(题目+答案)](https://blog.ihoey.com/posts/Interview/2018-02-28-alibaba-interview.html)
+[面试分享：2018阿里巴巴前端面试总结(题目+答案)](https://blog.ihoey.com/posts/Interview/2018-02-28-alibaba-interview.html)   
+[基础集合](https://juejin.im/post/5b68f384f265da0fa00a3df0?utm_source=gold_browser_extension#heading-34)
 ## 1.javascript的基础  
 略
 ## 2.nodejs基础  
